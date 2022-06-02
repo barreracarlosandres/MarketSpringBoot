@@ -1,0 +1,34 @@
+.caja-relativa {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    left: 10px;
+    z-index: 20;
+}
+
+.caja-absoluta {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 20px;
+    z-index: 10;
+}
+
+.caja-fija {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+}
+
+.box {    
+    border: 3px  black dotted;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
