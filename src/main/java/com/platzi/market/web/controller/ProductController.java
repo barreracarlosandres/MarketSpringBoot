@@ -31,7 +31,7 @@ public class ProductController {
     @GetMapping("/{id}")
     @ApiResponses({
             @ApiResponse(code = 200, message = "OK"),
-            @ApiResponse(code = 200, message = "Product not found")})
+            @ApiResponse(code = 400, message = "Product not found")})
     public ResponseEntity<Product> getProduct(
             @ApiParam(value = "The ide of the product", required = true, example = "7")
             @PathVariable("id") int productId){
